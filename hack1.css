@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+#progress {
+  width: 50%;
+  height: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid grey;
+}
+#progress-bar {
+  height: 20px;
+  background-image: linear-gradient(tomato, crimson);
+  border-radius: 10px;
+}
+button {
+  margin: 0 auto 20px;
+}
+input {
+  margin: 5px;
+}
+body {
+  max-width: 800px;
+  padding: 20px;
+  height: 800px;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  background: rgb(255, 255, 255);
+  color: white;
+}
+.box {
+  font-family: "outfit", sans-serif;
+  width: 250px;
+  height: 80px;
+  border-radius: 20px;
+  font-size: 30px;
+  padding-left: 10px;
+  border: 1px solid lightblue;
+}
+h1 {
+  font-size: 50px;
+  font-family: "outfit", sans-serif;
+  margin-top: 10px;
+}
+.fill {
+  background-image: linear-gradient(
+    rgb(248, 132, 152),
+    rgba(52, 221, 213, 0.774)
+  );
+  margin: 30px;
+  border-radius: 20px;
+}
+.timer {
+  border: none;
+  font-family: "outfit", sans-serif;
+  cursor: pointer;
+  width: 100px;
+  height: 70px;
+  border-radius: 20px;
+  font-size: 25px;
+  /* padding-left: 10px; */
+}
+.timer:hover {
+  background-color: gray;
+}
+h2 {
+  font-family: o;
+  margin: 20px;
+  font-size: 30px;
+  font-family: "outfit", sans-serif;
+}
